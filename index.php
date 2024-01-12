@@ -1,7 +1,7 @@
 <?php 
-
-    $saluto = 'ciao';
+// Nome della variabile con il $
+    $paragraph = 'Ciao, sono quello che ti ha incontrato alla festa';
 ?>
-<h1>
-    Di solito saluto con un <?php echo $saluto ?>
-</h1>
+
+<!-- echo, stampa il valore della variabile ed echo strlen sta per stampa, lunghezza stringa e valore della variabile -->
+<p><?php echo $paragraph ?> = <?php echo strlen($paragraph);?> </p>
