@@ -1,7 +1,7 @@
-<?php 
-// Nome della variabile con il $
-    $paragraph = 'Ciao, sono quello che ti ha incontrato alla festa';
-?>
-
-<!-- echo, stampa il valore della variabile ed echo strlen sta per stampa, lunghezza stringa e valore della variabile -->
-<p><?php echo $paragraph ?> = <?php echo strlen($paragraph);?> </p>
+<!-- action, una volta compilato il form e inviato rimanda al file script.php, method è il metodo con cui viene effettuata la chiamata -->
+<form action="script.php" method="GET">
+    <label>Scrivi una parola</label>
+    <!-- inseriamo il dato name, che poi verra' inviato al file script.php -->
+    <input type="text" name="parolaOffensiva">
+    <label for="result">Risultato</label>
+</form>
